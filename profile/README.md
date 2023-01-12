@@ -12,16 +12,35 @@ Most of these projects incorporate the use of [ROS](ros.org) (Robot Operating Sy
 been tested using the ROS2 Foxy release.
 
 ## PID (Proportional, Inverse, Derivative) Controllers
-* [**Locomotice_sim**](https://github.com/JMU-ROBOTICS-VIVA/locomotive_sim) 
-* **2D PID_Practice Lab** - Activity for learning about multidimensional PID parameters and how to pass in ROS2 
+
+* [**Locomotice_sim** Lab](https://github.com/JMU-ROBOTICS-VIVA/locomotive_sim). A one
+dimensional train needs to stop at a point on the track and the only control 
+the student can apply is a force (both positive and negative).  The student
+attempts to accomplish this by hand to motivate the need for a controller.
+
+* [**2D PID_Practice** Lab](https://github.com/JMU-ROBOTICS-VIVA/rocketbot) - Activity for learning about multidimensional PID parameters and how to pass in ROS2 
 parameters and launch file.  This includes a rocket visualization where the PID controller 
 job is to make the rocket climb and maintain a specific altitude.
 
-* **Skibot Programming Assignment** -- Utilizes 2D PID controller and ROS services. 
+* [**Skibot Programming Assignment**](https://github.com/JMU-ROBOTICS-VIVA/Skibot_navigation)(https://github.com/JMU-ROBOTICS-VIVA/Skibot_navigation))  -- Utilizes 2D PID controller and ROS services. 
 A skier has a goal location passed via a ROS service and the PID controller must navigate the
 skier to this location.  The program must be able to accept new goal locations while running through
-ROS interfaces.  A visualization is provided so the student can visualize how well their
-controller is functioning.
+ROS interfaces.  This interface also introduces a angular/rotational force term.
+A visualization is provided so the student can visualize how well their
+controller is functioning. Files for the GUI and other support files the student will not need
+to change are located in the main [Skibot](https://github.com/JMU-ROBOTICS-VIVA/skibot) reposotory.
+
+## Planning
+
+* [**PyArm**]] (https://github.com/JMU-ROBOTICS-VIVA/py_arm) A 2D robotic arm simulator that
+can be used to develop and test planning algorithms.
+
+* [**A*, RRT and RRT* Planning**](https://github.com/JMU-ROBOTICS-VIVA/rrt_rrtstar) Allows
+students to explore using a deterministic and optimal planner (A*) versus a few probablistic
+ones.  Uses the [**PyArm**]] (https://github.com/JMU-ROBOTICS-VIVA/py_arm) for visualization.
+
+## Navigation
+
 
 <!--
 
