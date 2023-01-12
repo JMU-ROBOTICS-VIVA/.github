@@ -1,16 +1,17 @@
 # Introduction to Autonomous Robotics
 
 ## Introduction
-This respository holds projects and other learning material targetted for an undergraduate level
+This respository contains projects, template program and utilities, and other learning material
+targetted for an undergraduate level
 class on introducing autonomous robotics.  It corresponds with a developed course
 at James Madision University (CS 354) and the book *Just Enough Robotics* by Nathan Sprague.
 
 Listed below are the general topics covered by the book/course and a brief description 
 of the corresponding projects/repositories to support that material.  
 
-Most of these projects incorporate the use of [ROS](ros.org) (Robot Operating System) and have
+Some of these projects incorporate the use of [ROS](ros.org) (Robot Operating System) and have
 been tested using the ROS2 Foxy release.  Where applicable, these projects utilize the
-[Turtlebot-3 Waffle Pi](https://www.robotis.us/turtlebot-3/) platform.
+[Turtlebot-3 Waffle Pi](https://www.robotis.us/turtlebot-3/) robot platform.
 
 ## PID (Proportional, Inverse, Derivative) Controllers
 
@@ -36,9 +37,9 @@ to change are located in the main [Skibot](https://github.com/JMU-ROBOTICS-VIVA/
 * [**PyArm**](https://github.com/JMU-ROBOTICS-VIVA/py_arm) A 2D robotic arm simulator that
 can be used to develop and test planning algorithms.
 
-* [**A*, RRT and RRT* Planning**](https://github.com/JMU-ROBOTICS-VIVA/rrt_rrtstar) Allows
+* [**A\*, RRT and RRT* Planning**](https://github.com/JMU-ROBOTICS-VIVA/rrt_rrtstar) Allows
 students to explore using a deterministic and optimal planner (A*) versus a few probablistic
-ones.  Uses the [**PyArm**]] (https://github.com/JMU-ROBOTICS-VIVA/py_arm) for visualization.
+ones.  Uses the [**PyArm**](https://github.com/JMU-ROBOTICS-VIVA/py_arm) for visualization.
 
 ## Navigation
 
@@ -58,17 +59,18 @@ that contain Zeta in the name are in support of this project.
 
 ## ROS and Turtlebot Supoprt Packages
 
-These packages have been developed to augment ROS2 *Foxy* programming in the Python language and
-the [Turtlebot-3 Waffle Pi](https://www.robotis.us/turtlebot-3/) platform. These respositories
-include:
+These packages augment the ROS2 *Foxy* programming Python API language and
+the [Turtlebot-3 Waffle Pi](https://www.robotis.us/turtlebot-3/) platform to support
+the projects/labs.
+
 * [**Transform service**](https://github.com/JMU-ROBOTICS-VIVA/transform_service) 
 A tf interface for Python that provides transforms between frames.
 
 * [**JMU ROS utilities**](https://github.com/JMU-ROBOTICS-VIVA/jmu_ros2_util) Supplies
-* transform and a few functions for making it easier to work with OccypancyGrid msgs.
+transform and a few functions for making it easier to work with OccypancyGrid msgs.
 
 * [**JMU Turtlebot3 Bringup**](https://github.com/JMU-ROBOTICS-VIVA/jmu_turtlebot3_bringup) 
 This package makes the Turtlebot code more ROS2 *Foxy* friendly.
 
-* [**Ros2_Aruco**]](https://github.com/JMU-ROBOTICS-VIVA/ros2_aruco) Wrapper
-* for OpenCV Aruco Marker tracking for use with ROS2.
+* [**Ros2_Aruco**](https://github.com/JMU-ROBOTICS-VIVA/ros2_aruco) Wrapper
+for OpenCV Aruco Marker tracking for use with ROS2.
