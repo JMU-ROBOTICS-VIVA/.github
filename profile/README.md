@@ -41,14 +41,15 @@ ones.  Uses the [**PyArm**]] (https://github.com/JMU-ROBOTICS-VIVA/py_arm) for v
 
 ## Navigation
 
+* [**Random Navigation Lab** ](https://github.com/JMU-ROBOTICS-VIVA/random_nav).  Utilizes ROS
+navigation and occupancy grids.  Students select a location via the ROS *RViz* utility,
+which then communicates with the student agent which is responsible for working
+with the ROS navigation system to move the robot to the goal configuration.
 
-<!--
-
-**Here are some ideas to get you started:**
-
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
+* [**Navigation Challenge Project**](https://github.com/JMU-ROBOTICS-VIVA/zeta_all)
+This project involves conducted a time limited search to "rescue" indidivuals, each marked
+with an aruco tag and identified from the robot's camera.  A ROS occupancy map is provided
+at the competition (but not before, so, essentially it is an unknown space).  It has
+been tested with the [Turtlebot-3 Waffle Pi](https://www.robotis.us/turtlebot-3/).
+Many aspects of this project can be enhanced, for example, computer vision methods can
+be employed to better spot individuals from far away.
