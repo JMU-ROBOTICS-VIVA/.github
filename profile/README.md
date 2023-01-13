@@ -89,12 +89,12 @@ Many aspects of this project can be enhanced, for example, computer vision metho
 be employed to better spot individuals from far away.  The supporting respositories 
 that contain Zeta in the name are in support of this project.
 
-## Localization
+### Localization
 
 * [Localization HW](https://w3.cs.jmu.edu/spragunr/CS354/hw/localization_hw/localization.shtml)
 * [Recursive State Estimation Visualization](https://youtu.be/br9nbm2VYJU)
 
-## ROS and Turtlebot Support Packages
+### ROS and Turtlebot Support Packages
 
 These packages augment the ROS2 *Foxy* programming Python API language and
 the [Turtlebot-3 Waffle Pi](https://www.robotis.us/turtlebot-3/) platform to support
