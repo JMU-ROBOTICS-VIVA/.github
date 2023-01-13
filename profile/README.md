@@ -92,6 +92,7 @@ that contain Zeta in the name are in support of this project.
 ## Localization
 
 * [Localization HW](https://w3.cs.jmu.edu/spragunr/CS354/hw/localization_hw/localization.shtml)
+* [Recursive State Estimation Visualization](https://studio.youtube.com/video/br9nbm2VYJU/edit)
 
 ## ROS and Turtlebot Support Packages
 
