@@ -3,7 +3,7 @@
 ## Introduction
 This respository contains projects, template program and utilities, and other learning material
 targetted for an undergraduate level
-class on introducing autonomous robotics.  It corresponds with a developed course
+class on autonomous robotics.  It corresponds with a developed course
 at James Madision University (CS 354) and the book *Just Enough Robotics* by Nathan Sprague.
 
 Listed below are the general topics covered by the book/course and a brief description 
@@ -12,6 +12,14 @@ of the corresponding projects/repositories to support that material.
 Some of these projects incorporate the use of [ROS](ros.org) (Robot Operating System) and have
 been tested using the ROS2 Foxy release.  Where applicable, these projects utilize the
 [Turtlebot-3 Waffle Pi](https://www.robotis.us/turtlebot-3/) robot platform.
+
+## Sample Course Schedule
+
+The following course schedule includes links to lab activities, homework assignments, 
+and readings.  The posted readings are primarily from *Just Enough Robotics* and the 
+official [ROS2 Tutorials](https://docs.ros.org/en/foxy/Tutorials.html)
+
+* [CS 354 Course Schedule, Fall 2022](https://w3.cs.jmu.edu/spragunr/CS354_F22/schedule.shtml)
 
 ## PID (Proportional, Inverse, Derivative) Controllers
 
@@ -37,9 +45,13 @@ to change are located in the main [Skibot](https://github.com/JMU-ROBOTICS-VIVA/
 * [**PyArm**](https://github.com/JMU-ROBOTICS-VIVA/py_arm) A 2D robotic arm simulator that
 can be used to develop and test planning algorithms.
 
-* [**A\*, RRT and RRT* Planning**](https://github.com/JMU-ROBOTICS-VIVA/rrt_rrtstar) Allows
+* [**A\*, RRT and RRT* Planning**](https://github.com/JMU-ROBOTICS-VIVA/rrt_rrtstar) (Project) Allows
 students to explore using a deterministic and optimal planner (A*) versus a few probablistic
 ones.  Uses the [**PyArm**](https://github.com/JMU-ROBOTICS-VIVA/py_arm) for visualization.
+
+* [Planning Visualizations](https://youtube.com/playlist?list=PLQDczm7KjqkfLEOvDtENQzoMz2LwoHKcj&feature=shares) 
+This is a playlist of animations for the algorithsm described in the planning chapter of 
+*Just Enough Robotics*.
 
 ## Navigation
 
