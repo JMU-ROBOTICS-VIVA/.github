@@ -1,8 +1,8 @@
-# Introduction to Autonomous Robotics
+# Teaching Materials for Autonomous Robotics
 
 ## Introduction
-This repository contains projects, template programs and utilities, and other learning materials
-targeted for an undergraduate level class on autonomous robotics.  It corresponds with a course
+This organization contains projects, template programs and utilities, and other learning materials
+for an autonomous robotics course targeted to computer science undergraduates.  It corresponds with a course
 at James Madision University (CS 354) and the book *Just Enough Robotics* by Nathan Sprague.
 
 Listed below are the general topics covered by the book/course and a brief description 
@@ -10,7 +10,9 @@ of the corresponding projects, labs and repositories to support that material.
 
 Some of these projects use  [ROS](ros.org) (Robot Operating System) and have
 been tested using the ROS2 Foxy release.  Where applicable, these projects utilize the
-[Turtlebot-3 Waffle Pi](https://www.robotis.us/turtlebot-3/) robot platform.
+[Turtlebot3 Waffle Pi](https://www.robotis.us/turtlebot-3/) robot platform.
+
+Portions of this work were supported by a grant from the [Virtual Library of Virginia (VIVA)](https://vivalib.org/viva/homepage).
 
 ## Textbook
 
